@@ -7,6 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
+    publicPath: path.join(__dirname, "/")
   },
   resolve: {
     extensions: [".js", ".jsx"],
@@ -46,6 +47,7 @@ module.exports = {
   devServer: {
     static: path.join(__dirname, "dist"),
     port: 3005,
-    compress: true
+    compress: true,
+    historyApiFallback: true
   }
 };
