@@ -1,11 +1,8 @@
 import React from 'react';
+import Header from '../components/Header.jsx'
 
-const Home = () => {
-    return (
-        <div>
-            React Shop
-        </div>
-    );
-};
+const Home = () => (
+    <Header />
+)
 
 export default Home;

@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "../styles/global.css";
 import Layout from "../containers/Layout.jsx";
 import Login from "../containers/Login.jsx";
-import RecoveryPassword from "../containers/RecoveryPassword";
+import RecoveryPassword from "../containers/RecoveryPassword.jsx";
 import Home from "../pages/Home.jsx";
 import NotFound from "../pages/NotFound.jsx";
 
